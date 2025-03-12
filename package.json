@@ -1,0 +1,30 @@
+{
+  "name": "optimize-images",
+  "version": "1.0.0",
+  "description": "A tool to resize and optimize images in WordPress uploads folder",
+  "main": "optimize-images.js",
+  "bin": {
+    "optimize-images": "./optimize-images.js"
+  },
+  "scripts": {
+    "start": "node optimize-images.js"
+  },
+  "keywords": [
+    "image",
+    "optimization",
+    "wordpress",
+    "resize"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
+    "imagemin-webp": "^6.0.0",
+    "sharp": "^0.30.7"
+  }
+} 
